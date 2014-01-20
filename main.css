@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 
+
 }
 
 body * {
@@ -124,7 +125,8 @@ height: 60px;
 	height: 47px;
 	min-width: 960px;
 	background-color:  white;
-	border-bottom: 1px solid rgb(218,218,218);
+	z-index: 1;
+	-webkit-box-shadow: 0 5px 4px -6px black;
 
 }
 
@@ -147,6 +149,8 @@ height: 60px;
 	min-width: 960px;
 	background-color: rgb(242,240,236);
 	position: relative;
+	z-index: -1;
+	border-bottom: 1px solid rgb(216,216,215);
 
 }
 
@@ -157,7 +161,6 @@ height: 60px;
 	vertical-align: center;
 	margin-right: 208px;
 	margin-left: 281px;
-	outline: black 1px solid;
 
 }
 
@@ -166,7 +169,6 @@ height: 60px;
 	min-width: 473px;
 	position: absolute;
 	margin-right: 1px;
-	outline: black 1px solid;
 
 }
 
@@ -198,7 +200,8 @@ height: 60px;
 	letter-spacing: 1px;
 	position: absolute;
 	font-size: 20px;
-	top: 1%;
+	top: 8%;
+	z-index: 1;
 
 }
 
@@ -214,7 +217,7 @@ height: 60px;
 .boxtext {
 	display: inline-block;
 	list-style-type: none;
-	margin: 13px;
+	margin: 17px;
 	margin-left: 22px;
 	color: rgb(56, 56, 58);
 	letter-spacing: 1px;
@@ -229,16 +232,21 @@ height: 60px;
 	top: 410px;
 	height: 30px;
 	left: -16px;
-	width: 156px;
+	width: 140px;
 	background: #f9ce00;
-	}
+	box-shadow: 0px 3px 7px;
+	color: rgb(197,144,38);
+
+
+}
 	
 .el:before, .el:after {
 	content: '';
 	display: block;
 	position: absolute;
 	border-style: solid;
-	}
+
+}
 	
 .el:before {
 	display: block;
@@ -246,7 +254,8 @@ height: 60px;
 	top: 30px;
 	border-width: 8px;
 	border-color: #f9ce00 #f9ce00 transparent transparent;
-	}
+
+}
 	
 .el:after {
 	display: none;
@@ -254,7 +263,57 @@ height: 60px;
 	top: 30px;
 	border-width: 8px;
 	border-color: #f9ce00 transparent transparent #f9ce00;
-	}
+
+}
+
+.mobmessage {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px;
+	margin-left: 10px;
+	color: rgb(250,248,248);
+	text-shadow: 0 2px 2px rgb(243,173,19);
+	height: 10px;
+	width: 130px;
+	top: 415px;
+	position: absolute;
+	font-size: 14px;
+	letter-spacing: 1px;
+
+}
+
+
+
+.arrowcontainer {
+	top: 499px;
+	position: absolute;
+
+}
+
+
+.mobmsgarrow {
+	width: 25px;
+	height: 36px;
+	position: absolute;
+
+}
+
+	
+.useragreement {
+	display: inline-block;
+	list-style-type: none;
+	margin: 10px;
+	margin-left: 24px;
+	color: rgb(111,111,111);
+	height: 10px;
+	width: 548px;
+	top: 16px;
+	position: absolute;
+	font-size: 11px;
+	letter-spacing: 1px;
+
+}
+
 
 
 /*.mobends {
@@ -269,32 +328,354 @@ height: 60px;
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container2 {
 	height: 405px;
 	min-width: 473px;
 	position: absolute;
 	margin-left: 473px;
-	outline: black 1px solid;	
+	
+
+}
+
+.box1 {
+	height: 154px;
+	width: 140px;
+	background: rgb(207,205,199);
+	top: 30px;
+	margin-left: 168px;
+	position: absolute;
+
+}
+
+.mobnum {
+	color: white;
+	margin-left: 197px;
+	top: 10%;
+	height: 0;
+	position: absolute;
+	font-size: 70px;
+	text-shadow: 0 1px 1px #444;
+
+}
+
+.box2 {
+	height: 154px;
+	width: 140px;
+	background: rgb(207,205,199);
+	top: 30px;
+	margin-left: 329px;
+	position: absolute;
+	
+}
+
+.neednumber {
+	color: white;
+	margin-left: 340px;
+	top: 10%;
+	height: 0;
+	position: absolute;
+	font-size: 70px;
+	text-shadow: 0 1px 1px #444;
+
+}
+
+.boxdiv1 {
+	height: 33px;
+	width: 140px;
+	position: absolute;
+	background: rgb(181,174,163);
+	margin-left: 168px;
+	top: 37%;
+	text-align: center;
+	
+}
+
+.mobtxt {
+	height: 33px;
+	width: 140px;
+	position: absolute;
+	margin-left: 168px;
+	text-align: center;
+	color: rgb(70,70,70);
+	top: 38%;
+	font-size: 16px;
+	text-shadow: 0px 1px 1px rgb(227,224,216);
+
+}
+
+.boxdiv2 {
+	height: 33px;
+	width:	140px;
+	position: absolute;
+	background: rgb(181,174,163);
+	margin-left: 329px;
+	top: 37%;
+	text-align: center;
+}
+
+.mobneed {
+	height: 33px;
+	width: 140px;
+	position: absolute;
+	margin-left: 330px;
+	text-align: center;
+	color: rgb(70,70,70);
+	top: 38%;
+	font-size: 16px;
+	text-shadow: 0px 1px 1px rgb(227,224,216);
+
+}
+
+.joinbutton {
+	height: 62px;
+	width: 300px;
+	position: absolute;
+	margin-left: 170px;
+	top: 212px;
+	border-radius: 6px;
+	border: 1px solid rgb(210,143,0);
+	box-shadow: 0px 2px 2px rgb(215,222,236);
+	background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+	background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
+	z-index: 1;
+}
+
+.rewardbox {
+	height: 77px;
+	width: 290px;
+	position: absolute;
+	margin-left: 176px;
+	top: 68%;
+	background: white;
+	border-radius: 6px;
+	border: 1px solid rgb(177,177,177);
+	box-shadow: inset 0px -2px 2px rgb(228,228,228);
+
+}
+
+.jointext {
+	height: 33px;
+	width: 140px;
+	position: absolute;
+	margin-left: 250px;
+	text-align: center;
+	color: white;
+	top: 226px;
+	font-size: 23px;
+	text-shadow: 0px 2px 1px rgb(190,134,36);
+	z-index: 2;
+
+}
+
+.medalcontainer {
+	margin-left: 655px;
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	
+
+}
+
+
+.rewardboxmedal img {
+	height: 55px;
+	width: 40px;
+	position: absolute;
+	top: 285px;
+
+}
+
+.yourreward {
+	height: 50px;
+	width: 200px;
+	position: absolute;
+	color: rgb(46,46,46);
+	top: 285px;
+	margin-left: 46px;
+	font-size: 18px;
+	font-weight: bold;
+	text-shadow: 0px 2px 2px rgb(249,249,249);
+
+
+}
+
+.ticketpresale {
+	height: 50px;
+	width: 500px;
+	position: absolute;
+	color: rgb(46,46,46);
+	top: 310px;
+	margin-left: 46px;
+	font-size: 14px;
+	text-shadow: 0px 2px 2px rgb(249,249,249);
+
+}
+
+.stipulation {
+	height: 45px;
+	width: 270px;
+	margin-left: 660px;
+	top: 365px;
+	color: rgb(144,144,143);
+	font-size: 11px;
+	position: absolute;
+	text-align: center;
+	border-bottom: solid 1px;
+	border-bottom-color: rgb(144,144,143);
+
+}
+
+.socialmbutton {
+	width: 300px;
+	height: 65px;
+	margin-left: 640px;
+	top: 426px;
+	position: absolute;
+
+}
+
+
+/*Twisted Sister Section*/
+
+.whitebody {
+	height: 610px;
+	min-width: 960px;
+	background-color: white;
+	margin: 0 auto;
+
+}
+
+.wbcontainer {
+	height: 323px;
+	min-width: 960px;
+	margin: 0 0 0 auto;
+	border-bottom: solid 1px rgb(144,144,143);
+	position: relative;
+	outline: 1px solid black;
+	 
+
+}
+
+.grid1 {
+	height: 323px;
+	width: 320px;
+	margin-left: 281px;
+	position: absolute;
+	display: inline-block;
+	outline: 1px solid black;
+
+
+}
+
+.grid2 {
+	height: 323px;
+	width: 320px;
+	margin-left: 602px;
+	position: absolute;
+	display: inline-block;
+	outline: 1px solid red;
+
+}
+
+.grid3 {
+	height: 323px;
+	width: 320px;
+	margin-left: 923px;
+	position: absolute;
+	display: inline-block;
+	outline: 1px solid purple;
+
+}
+
+.grid1 img {
+	height: 194px;
+	width: 300px;
+	top: 40px;
+	margin-left: 0;
+	position: absolute;
+	border: 1px solid black;
+
+}
+
+.grid2 img {
+	height: 194px;
+	width: 300px;
+	top: 40px;
+	margin-left: 0;
+	position: absolute;
+	border: 1px solid black;
+
+}
+
+.grid3 img {
+	height: 194px;
+	width: 300px;
+	top: 40px;
+	margin-left: -2px;
+	position: absolute;
+	border: 1px solid black;
+}
+
+.gridcontainer1 {
+	height: 87px;
+	width: 302px;
+	background-color: white;
+	position: absolute;
+	top: 236px;
+	margin-left: 281px;
+
+}
+
+
+.mymorntext {
+	height: 17px;
+	width: 148px;
+	font-size: 16px;
+	color: black;
+	position: absolute;
+	margin-left: 0px;
+	top: 5px;
+	font-weight: bolder;
+}
+
+
+.mobneedmymorn {
+	height: 17px;
+	width: 176px;
+	font-size: 12px;
+	color: rgb(100,100,100);
+	position: absolute;
+	margin-left: 0px;
+	top: 25px;
+	font-weight: lighter;
+}
+
+
+.timemymorn {
+	height: 17px;
+	width: 33px;
+	font-size: 12px;
+	color: black;
+	position: absolute;
+	margin-left: 261px;
+	top: 5px;
+	font-weight: lighter;
 
 }
 
 
 
+.btmclock1 {
+	margin-left: 239px;
+	top: 4px;
+	position: absolute;
+
+}
 
 
 
