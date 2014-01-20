@@ -556,7 +556,6 @@ height: 60px;
 	margin: 0 0 0 auto;
 	border-bottom: solid 1px rgb(144,144,143);
 	position: relative;
-	outline: 1px solid black;
 	 
 
 }
@@ -567,30 +566,9 @@ height: 60px;
 	margin-left: 281px;
 	position: absolute;
 	display: inline-block;
-	outline: 1px solid black;
-
 
 }
 
-.grid2 {
-	height: 323px;
-	width: 320px;
-	margin-left: 602px;
-	position: absolute;
-	display: inline-block;
-	outline: 1px solid red;
-
-}
-
-.grid3 {
-	height: 323px;
-	width: 320px;
-	margin-left: 923px;
-	position: absolute;
-	display: inline-block;
-	outline: 1px solid purple;
-
-}
 
 .grid1 img {
 	height: 194px;
@@ -602,24 +580,6 @@ height: 60px;
 
 }
 
-.grid2 img {
-	height: 194px;
-	width: 300px;
-	top: 40px;
-	margin-left: 0;
-	position: absolute;
-	border: 1px solid black;
-
-}
-
-.grid3 img {
-	height: 194px;
-	width: 300px;
-	top: 40px;
-	margin-left: -2px;
-	position: absolute;
-	border: 1px solid black;
-}
 
 .gridcontainer1 {
 	height: 87px;
@@ -641,6 +601,7 @@ height: 60px;
 	margin-left: 0px;
 	top: 5px;
 	font-weight: bolder;
+	z-index: 2;
 }
 
 
@@ -653,10 +614,176 @@ height: 60px;
 	margin-left: 0px;
 	top: 25px;
 	font-weight: lighter;
+	z-index: 2;
 }
 
 
 .timemymorn {
+	height: 17px;
+	width: 33px;
+	font-size: 12px;
+	color: black;
+	position: absolute;
+	margin-left: 261px;
+	top: 5px;
+	font-weight: lighter;
+	z-index: 2;
+
+}
+
+
+
+.btmclock1 {
+	margin-left: 239px;
+	top: 4px;
+	position: absolute;
+	z-index: 2
+
+}
+
+
+/* grid 2 */
+
+.grid2 {
+	height: 323px;
+	width: 320px;
+	margin-left: 602px;
+	position: absolute;
+	display: inline-block;
+
+}
+
+.grid2 img {
+	height: 194px;
+	width: 300px;
+	top: 40px;
+	margin-left: 0;
+	position: absolute;
+	border: 1px solid black;
+
+}
+
+.gridcontainer2 {
+	height: 87px;
+	width: 302px;
+	background-color: white;
+	position: absolute;
+	top: 236px;
+	margin-left: 281px;
+
+}
+
+
+.bsstext {
+	height: 17px;
+	width: 160px;
+	font-size: 16px;
+	color: black;
+	position: absolute;
+	margin-left: 320px;
+	top: 5px;
+	font-weight: bolder;
+	z-index: 1;
+
+}
+
+
+.mobneedbss {
+	height: 17px;
+	width: 176px;
+	font-size: 12px;
+	color: rgb(100,100,100);
+	position: absolute;
+	margin-left: 320px;
+	top: 25px;
+	font-weight: lighter;
+}
+
+
+.timebss {
+	height: 17px;
+	width: 33px;
+	font-size: 12px;
+	color: black;
+	position: absolute;
+	margin-left: 581px;
+	top: 5px;
+	font-weight: lighter;
+
+}
+
+
+
+.btmclock2 {
+	margin-left: 559px;
+	top: 4px;
+	position: absolute;
+
+}
+
+/* grid 3 */
+
+.grid3 {
+	height: 323px;
+	width: 320px;
+	margin-left: 923px;
+	position: absolute;
+	display: inline-block;
+
+}
+
+
+
+
+.grid3 img {
+	height: 194px;
+	width: 300px;
+	top: 40px;
+	margin-left: -2px;
+	position: absolute;
+	border: 1px solid black;
+
+}
+
+
+.gridcontainer3 {
+	height: 87px;
+	width: 302px;
+	background-color: white;
+	position: absolute;
+	top: 236px;
+	margin-left: 923px;
+
+}
+
+
+.mmtext {
+	height: 17px;
+	width: 160px;
+	font-size: 16px;
+	color: black;
+	position: absolute;
+	margin-left: -1px;
+	top: 5px;
+	font-weight: bolder;
+	z-index: 1;
+
+}
+
+
+.mobneedmm {
+	height: 17px;
+	width: 176px;
+	font-size: 12px;
+	color: rgb(100,100,100);
+	position: absolute;
+	margin-left: -1px;
+	top: 25px;
+	font-weight: lighter;
+}
+
+
+.timemm {
 	height: 17px;
 	width: 33px;
 	font-size: 12px;
@@ -670,13 +797,12 @@ height: 60px;
 
 
 
-.btmclock1 {
+.btmclock3 {
 	margin-left: 239px;
 	top: 4px;
 	position: absolute;
 
 }
-
 
 
 
